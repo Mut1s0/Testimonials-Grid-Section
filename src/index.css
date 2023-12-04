@@ -29,4 +29,5 @@ body {
     padding: 0;
     margin: 0;
     font-family: var(--ff-Barlow-Semi-Condensed);
+    background-color: var(--light-grayish-blue);
 }
