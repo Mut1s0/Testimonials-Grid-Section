@@ -1,133 +1,71 @@
-main {
-  border: 2px solid red;
+.daniel {
+    background-color: var(--moderate-violet);
 }
 
-.content > section:nth-child(1) {
-  background-color: var(--moderate-violet);
+.jonathan {
+    background-color: var(--very-dark-grayish-blue);
 }
 
-.content > section:nth-child(1) > div:nth-child(2) > header > aside > h3 {
-  color: var(--light-grayish-blue);
-  font-weight: var(--fw-medium);
+.jeanette {
+    background-color: var(--white);
 }
 
-.content > section:nth-child(1) > div:nth-child(2) > header > aside > h4 {
-  color: var(--light-grayish-blue);
-  font-weight: var(--fw-medium);
-  opacity: 50%;
+.patrick {
+    background-color: var(--very-dark-blackish-blue);
 }
 
-.content > section:nth-child(1) > div:nth-child(2) > div > h1 {
-  color: var(--light-grayish-blue);
-  font-weight: var(--fw-medium);
+.kira {
+    background-color: var(--white);
 }
 
-.content > section:nth-child(1) > div:nth-child(2) > div > p {
-  color: var(--light-grayish-blue);
-  font-weight: var(--fw-medium);
-  opacity: 70%;
+.daniel-title,
+.jonathan-title,
+.patrick-title {
+    color: var(--light-grayish-blue);
 }
 
-.content > section:nth-child(2) {
-  background-color: var(--very-dark-grayish-blue);
+.daniel-subTitle,
+.jonathan-subTitle,
+.patrick-subTitle {
+    color: var(--light-grayish-blue);
+    opacity: 50%;
 }
 
-.content > section:nth-child(2) > div > header > aside > h3 {
-  color: var(--light-gray);
-  font-weight: var(--fw-medium);
+.daniel-header,
+.jonathan-header,
+.patrick-header {
+    color: var(--light-grayish-blue);
+    font-family: var(--fw-semiBold);
 }
 
-.content > section:nth-child(2) > div > header > aside > h4 {
-  color: var(--light-gray);
-  font-weight: var(--fw-medium);
-  opacity: 50%;
+.daniel-content,
+.jonathan-content,
+.patrick-content {
+    color: var(--light-grayish-blue);
+    opacity: 70%;
+    font-weight: var(--fw-medium);
 }
 
-.content > section:nth-child(2) > div > div > h1 {
-  color: var(--light-gray);
-  font-weight: var(--fw-semiBold);
+.jeanette-title,
+.kira-title {
+    color: var(--very-dark-blackish-blue);
 }
 
-.content > section:nth-child(2) > div > div > p {
-  color: var(--light-gray);
-  font-weight: var(--fw-semiBold);
-  opacity: 70%;
+.jeanette-subTitle,
+.kira-subTitle {
+    color: var(--very-dark-blackish-blue);
+    opacity: 50%;
 }
 
-.content > section:nth-child(3) {
-  background-color: var(--white);
+.jeanette-header,
+.kira-header {
+    color: var(--very-dark-blackish-blue);
+    font-family: var(--fw-semiBold);
 }
 
-.content > section:nth-child(3) > div > header > aside > h3 {
-  color: var(--very-dark-blackish-blue);
-  font-weight: var(--fw-medium);
-}
-
-.content > section:nth-child(3) > div > header > aside > h4 {
-  color: var(--very-dark-blackish-blue);
-  font-weight: var(--fw-medium);
-  opacity: 50%;
-}
-
-.content > section:nth-child(3) > div > div > h1 {
-  color: var(--very-dark-blackish-blue);
-  font-weight: var(--fw-semiBold);
-}
-
-.content > section:nth-child(3) > div > div > p {
-  color: var(--very-dark-blackish-blue);
-  font-weight: var(--fw-semiBold);
-  opacity: 70%;
-}
-
-.content > section:nth-child(4) {
-  background-color: var(--very-dark-blackish-blue);
-}
-
-.content > section:nth-child(4) > div > header > aside > h3 {
-  color: var(--light-gray);
-  font-weight: var(--fw-medium);
-}
-
-.content > section:nth-child(4) > div > header > aside > h4 {
-  color: var(--light-gray);
-  font-weight: var(--fw-medium);
-  opacity: 50%;
-}
-
-.content > section:nth-child(4) > div > div > h1 {
-  color: var(--light-gray);
-  font-weight: var(--fw-semiBold);
-}
-
-.content > section:nth-child(4) > div > div > p {
-  color: var(--light-gray);
-  font-weight: var(--fw-semiBold);
-  opacity: 70%;
-}
-
-.sideTestimony > section {
-  background-color: var(--white);
-}
-
-.sideTestimony > section > div > header > aside > h3 {
-  color: var(--very-dark-blackish-blue);
-  font-weight: var(--fw-medium);
-}
-
-.sideTestimony > section > div > header > aside > h4 {
-  color: var(--very-dark-blackish-blue);
-  font-weight: var(--fw-medium);
-  opacity: 50%;
-}
-
-.sideTestimony > section > div > div > h1 {
-  color: var(--very-dark-blackish-blue);
-  font-weight: var(--fw-semiBold);
-}
-
-.sideTestimony > section > div > div > p {
-  color: var(--very-dark-blackish-blue);
-  font-weight: var(--fw-semiBold);
-  opacity: 70%;
+.jeanette-content,
+.kira-content {
+    color: var(--very-dark-blackish-blue);
+    opacity: 70%;
+    font-weight: var(--fw-medium);
 }
