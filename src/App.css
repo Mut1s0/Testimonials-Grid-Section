@@ -1,0 +1,71 @@
+.daniel {
+    background-color: var(--moderate-violet);
+}
+
+.jonathan {
+    background-color: var(--very-dark-grayish-blue);
+}
+
+.jeanette {
+    background-color: var(--white);
+}
+
+.patrick {
+    background-color: var(--very-dark-blackish-blue);
+}
+
+.kira {
+    background-color: var(--white);
+}
+
+.daniel-title,
+.jonathan-title,
+.patrick-title {
+    color: var(--light-grayish-blue);
+}
+
+.daniel-subTitle,
+.jonathan-subTitle,
+.patrick-subTitle {
+    color: var(--light-grayish-blue);
+    opacity: 50%;
+}
+
+.daniel-header,
+.jonathan-header,
+.patrick-header {
+    color: var(--light-grayish-blue);
+    font-family: var(--fw-semiBold);
+}
+
+.daniel-content,
+.jonathan-content,
+.patrick-content {
+    color: var(--light-grayish-blue);
+    opacity: 70%;
+    font-weight: var(--fw-medium);
+}
+
+.jeanette-title,
+.kira-title {
+    color: var(--very-dark-blackish-blue);
+}
+
+.jeanette-subTitle,
+.kira-subTitle {
+    color: var(--very-dark-blackish-blue);
+    opacity: 50%;
+}
+
+.jeanette-header,
+.kira-header {
+    color: var(--very-dark-blackish-blue);
+    font-family: var(--fw-semiBold);
+}
+
+.jeanette-content,
+.kira-content {
+    color: var(--very-dark-blackish-blue);
+    opacity: 70%;
+    font-weight: var(--fw-medium);
+}
